@@ -3,7 +3,7 @@ main()
 {
     int mat1[20][20],mat2[20][20],ans[20][20],r1,c1,r2,c2,i,j,k,sum;
     printf("Enter the rows and columns of first matrix=");
-    scanf("%d %d",r1,c1);
+    scanf("%d %d",&r1,&c1);
     printf("\nEnter the rows and columns of second matrix=");
     scanf("%d %d",&r2,&c2);
     if(c1==r2)
