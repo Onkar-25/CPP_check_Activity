@@ -1,7 +1,7 @@
 #include<stdio.h>
 main()
 {
-    int mat1[20][20],mat2[20][20],r1,c1,r2,c2,k;
+    int mat1[20][20],mat2[20][20],r1,c1,r2,c2;
     int ans[20][20];
     printf("Enter the rows and columns of first matrix=");
     scanf("%d %d",&r1,&c1);
