@@ -1,14 +1,16 @@
 #include<stdio.h>
 main()
 {
-    int mat1[20][20],mat2[20][20],r1,c1,r2,c2;
-    int ans[20][20];
+    int r1,c1,r2,c2;
+   
     printf("Enter the rows and columns of first matrix=");
     scanf("%d %d",&r1,&c1);
     printf("\nEnter the rows and columns of second matrix=");
     scanf("%d %d",&r2,&c2);
     if(c1==r2)
     {
+          int mat1[20][20],mat2[20][20];
+         int ans[20][20];
     for(int i=0;i<r1;i++)
     {
         for(int j=0;j<c1;j++)
@@ -41,7 +43,6 @@ main()
     printf("\nmat1+mat2 =\t");
     for(int i=0;i<r1;i++)
     {
-        
         for(int j=0;j<c2;j++)
         {
             
